@@ -1,0 +1,3 @@
+if [ ! -d "$HOME"/.tmux/themes/nord-tmux/nord.tmux ]; then
+  git clone https://github.com/arcticicestudio/nord-tmux "$HOME"/.tmux/themes/nord-tmux/nord.tmux
+fi
